@@ -15,8 +15,8 @@ public class Produto {
 
     public Integer quantidade;
     public String nome;
-    public Double preto;
-    public LocalDate valide;
+    public Double preco;
+    public LocalDate validade;
 
     @ManyToOne
     public Categoria categoria;
