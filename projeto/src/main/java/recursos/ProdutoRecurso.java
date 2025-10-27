@@ -10,6 +10,6 @@ import jakarta.ws.rs.Path;
 public class ProdutoRecurso {
     @GET
     public List<Produto> listar(){
-        return Produto.listAll();
+        return Produto.listAll(); 
     }
 }

@@ -1,6 +1,5 @@
 package entidades;
 
-
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,6 +13,4 @@ public class Cliente extends PanacheEntityBase {
     public Integer codigo;
     public String nome;
     public String cpf;
-
-    
 }

@@ -1,161 +1,83 @@
-insert into Categoria (nome) values ('Bebidas');
 
-insert into Categoria (nome) values ('Frutas');
-
-insert into Categoria (nome) values ('Carnes');
-
-insert into Categoria (nome) values ('Tempero');
-
-insert into Categoria (nome) values ('Laticinios');
-
-insert into Categoria (nome) values ('Doces');
-
-insert into Categoria (nome) values ('Salgadinhos');
-
-insert into Categoria (nome) values ('pet');
-
-insert into Categoria (nome) values ('Frios');
-
-insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('coca cola 2 litros', 12.00, 15, '2025-12-20', 2 );
-
-
-
-
-
-
-
-
-insert into Cliente (nome, cpf) values ('Matheus', '123.321.329-23');
-
-insert into Cliente (nome, cpf) values ('Rogerio', '434.546.765-76');
-
-insert into Cliente (nome, cpf) values ('Neymar', '321.213.435-76');
-
-insert into Cliente (nome, cpf) values ('Gabriel', '453.321.329-23');
-
-insert into Cliente (nome, cpf) values ('Mario', '186.675.643-76');
-
-insert into Cliente (nome, cpf) values ('Marcos', '154.543.3565-26');
-
-insert into Cliente (nome, cpf) values ('Rodrigo', '178.367.765-76');
-
-insert into Cliente (nome, cpf) values ('Vitor', '187.234.654-93');
-
-insert into Cliente (nome, cpf) values ('Francisco', '176.876.765-73');
-
-insert into Cliente (nome, cpf) values ('Jorge', '435.765.876-64');
-
-
-
-
-
-insert into Fabricante (nome) values ('Nestle');
-
-insert into Fabricante (nome) values ('Nesquik');
-
-insert into Fabricante (nome) values ('Nestlé Ninho');
-
-insert into Fabricante (nome) values ('Neston');
-
-insert into Fabricante (nome) values ('KitKat');
-
-insert into Fabricante (nome) values ('Mococa');
-
-insert into Fabricante (nome) values ('Maggi');
-
-insert into Fabricante (nome) values ('Nestlé Pureza Vital');
-
-insert into Fabricante (nome) values ('Chamyto');
-
-insert into Fabricante (nome) values ('Molico');
-
-
-
-
-insert into Funcionario (nome, cpf) values ('João', '123.456.789-09');
-
-insert into Funcionario (nome, cpf) values ('Maria', '987.654.321-00');
-
-insert into Funcionario (nome, cpf) values ('Pedro', '111.222.333-44');
-
-insert into Funcionario (nome, cpf) values ('Ana', '555.666.777-88');
-
-insert into Funcionario (nome, cpf) values ('Carla', '000.111.222-33');
-
-insert into Funcionario (nome, cpf) values ('Carol', '999.888.777-66');
-
-insert into Funcionario (nome, cpf) values ('Bruno', '444.333.222-11');
-
-insert into Funcionario (nome, cpf) values ('Juliana', '666.555.444-22');
-
-insert into Funcionario (nome, cpf) values ('Felipe', '888.777.666-55');
-
-insert into Funcionario (nome, cpf) values ('Camila', '222.333.444-00');
-
-
-
-
-insert into Produto (nome,quantidade,preco,validade,categoria_codigo,fabricante_codigo) values ('Refrigerante 2 L', 30, 8.00, '2025-09-01', 1, 1);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Arroz 5 kg', 50, 25.00, '2025-12-01', 2, 2);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Sabonete 90g', 80, 3.00, '2025-01-01', 3, 3);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Detergente 500ml', 60, 2.50, '2025-06-01', 4, 4);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Leite 1 L', 40, 5.00, '2025-11-01', 2, 2);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Papel higiênico 4 rolos', 30, 6.00, '2025-08-01', 3, 3);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Feijão 1 kg', 45, 8.00, '2025-07-01', 2, 2);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Shampoo 300ml', 25, 10.00, '2025-03-01', 3, 3);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Água sanitária 1 L', 55, 4.00, '2025-10-01', 4, 4);
-
-insert into Produto (nome, quantidade, preco, validade, categoria_codigo, fabricante_codigo) values ('Biscoito 100g', 35, 3.50, '2025-04-01', 2, 2);
-
-
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-08-07 10:15:00', 20, 2, 1, 1);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-03 13:45:00', 10, 4, 3, 3);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-03 13:45:00', 10, 4, 2, 2);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-08 15:20:00', 50, 10, 4, 4);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-07 18:00:00', 20, 7, 5, 5);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-02 09:30:00', 55, 8, 6, 6);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-01 12:00:00', 40, 9, 7, 7);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-05 14:30:00', 45, 5, 8, 8);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-08 16:45:00', 23, 6, 9, 9);
-
-insert into Venda (horario, valortotal, quantidade_total, cliente_codigo, funcionario_codigo) values ('2025-09-10 19:10:00', 100, 20, 10, 10);
-
-
-
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (12.00, 3, 6);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (10.00, 1, 2);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (15.00, 4, 3);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (7.00, 3, 3);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (20.00, 4, 4);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (30.00, 3, 7);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (11.00, 1, 3);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (40.00, 5, 9);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (55.00, 6, 8);
-
-insert into ItemVenda (valorParcial,quantidadeParcial,produto_codigo) values (1.00, 1, 1);
+ INSERT INTO Categoria (nome) VALUES ('Refrigerantes');
+ INSERT INTO Categoria (nome) VALUES ('Sucos');
+ INSERT INTO Categoria (nome) VALUES ('Doces');
+ INSERT INTO Categoria (nome) VALUES ('Limpeza');
+ INSERT INTO Categoria (nome) VALUES ('Higiene Pessoal');
+ INSERT INTO Categoria (nome) VALUES ('Eletronicos');
+ INSERT INTO Categoria (nome) VALUES ('Roupas');
+ INSERT INTO Categoria (nome) VALUES ('Ferramentas');
+ INSERT INTO Categoria (nome) VALUES ('Alimentos');
+ INSERT INTO Categoria (nome) VALUES ('Livros');
+
+
+ INSERT INTO Fabricante (nome) VALUES ('The Coca-Cola Company');
+ INSERT INTO Fabricante (nome) VALUES ('PepsiCo');
+ INSERT INTO Fabricante (nome) VALUES ('Nestlé');
+ INSERT INTO Fabricante (nome) VALUES ('Unilever');
+ INSERT INTO Fabricante (nome) VALUES ('Mondelez International');
+ INSERT INTO Fabricante (nome) VALUES ('Procter & Gamble');
+ INSERT INTO Fabricante (nome) VALUES ('Johnson & Johnson');
+ INSERT INTO Fabricante (nome) VALUES ('Microsoft');
+ INSERT INTO Fabricante (nome) VALUES ('Apple');
+ INSERT INTO Fabricante (nome) VALUES ('Samsung');
+
+
+ INSERT INTO Cliente (nome, cpf) VALUES ('João da Silva', '111.111.111-11');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Maria Oliveira', '222.222.222-22');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Carlos Souza', '333.333.333-33');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Ana Pereira', '444.444.444-44');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Pedro Santos', '555.555.555-55');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Camila Lima', '666.666.666-66');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Fernando Costa', '777.777.777-77');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Juliana Martins', '888.888.888-88');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Rafael Almeida', '999.999.999-99');
+ INSERT INTO Cliente (nome, cpf) VALUES ('Patrícia Rocha', '000.000.000-00');
+
+
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Beatriz Santos', '123.456.789-01');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Lucas Ferreira', '987.654.321-02');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Gabriel Castro', '111.222.333-03');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Mariana Gomes', '444.555.666-04');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Thiago Lima', '777.888.999-05');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Aline Costa', '101.202.303-06');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Bruno Mendes', '404.505.606-07');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Sofia Ribeiro', '707.808.909-08');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Daniel Pereira', '131.414.515-09');
+ INSERT INTO Funcionario (nome, cpf) VALUES ('Laura Fernandes', '616.717.818-10');
+
+
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Coca-Cola 2 Litros', 12.00, '2025-12-28', 1, 1);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Pepsi Black Lata', 5.50, '2025-11-30', 1, 2);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Chocolate ao Leite Nestlé', 8.90, '2026-03-15', 3, 3);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Suco de Uva Del Valle', 7.20, '2026-01-20', 2, 3);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Sabão em Pó Omo', 25.00, '2027-05-10', 4, 4);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Smartphone Galaxy S23', 3500.00, '2030-01-01', 6, 10);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Shampoo Johnson Baby', 18.50, '2028-09-20', 5, 7);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Biscoito Oreo', 4.80, '2025-10-15', 3, 5);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Notebook Surface Pro', 5800.00, '2030-01-01', 6, 8);
+ INSERT INTO Produto (nome, preco, validade, categoria_codigo, fabricante_codigo) VALUES ('Blusa de Algodão', 50.00, '2030-01-01', 7, 4);
+
+
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-04 10:30:00', 24.00, 2, 1, 2);  
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-04 11:00:00', 16.50, 3, 2, 3);  
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-05 14:15:00', 8.90, 1, 3, 5);  
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-05 15:00:00', 7.20, 1, 4, 8);  
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-06 09:45:00', 25.00, 1, 5, 2);   
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-06 18:20:00', 3500.00, 1, 6, 3); 
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-07 11:50:00', 18.50, 1, 7, 5);   
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-07 16:30:00', 24.00, 5, 8, 8);   
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-08 10:10:00', 5800.00, 1, 9, 2); 
+ INSERT INTO Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) VALUES ('2025-09-08 17:40:00', 100.00, 2, 10, 3);  
+
+
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (24.00, 2, 1, 1);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (16.50, 3, 2, 2);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (8.90, 1, 3, 3);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (7.20, 1, 4, 4);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (25.00, 1, 5, 5);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (3500.00, 1, 6, 6);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (18.50, 1, 7, 7);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (24.00, 5, 8, 8);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (5800.00, 1, 9, 9);
+ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, venda_codigo, produto_codigo) VALUES (100.00, 2, 10, 10);

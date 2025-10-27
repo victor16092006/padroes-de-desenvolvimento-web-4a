@@ -11,18 +11,17 @@ import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Produto extends PanacheEntityBase {
-        @Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-   public Integer codigo;  
-   public String nome;
-   public Integer quantidade;
-   public Double preco; 
-   public LocalDate validade;
+    
+    public Integer codigo;
+    public String nome;
+    public Double preco;
+    public LocalDate validade;
 
-   @ManyToOne
-   public Categoria categoria;
+    @ManyToOne
+    public Categoria categoria;
 
-     @ManyToOne
-   public Fabricante fabricante;
-
+    @ManyToOne
+    public Fabricante fabricante;
 }

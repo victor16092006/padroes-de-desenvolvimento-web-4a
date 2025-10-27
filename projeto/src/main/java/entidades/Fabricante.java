@@ -10,6 +10,8 @@ import jakarta.persistence.Id;
 public class Fabricante extends PanacheEntityBase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    
     public Integer codigo;
     public String nome;
+
 }
